@@ -1,0 +1,79 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+}
+.wrapper{
+  max-width: 405px;
+  display: flex;
+  margin: 137px auto;
+  justify-content: center;
+  align-items:center;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.todo_input{
+  height: 52px;
+  margin: 0;
+  padding: 0 25px;
+}
+.todo_input input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  margin: ;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 0 20px 0 53px;
+  border: 1px solid #999;
+}
+
+.task-input input::placeholder{
+  color: #bfbfbf;
+}
+
+.todo_add_button{
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+  margin: 5px;
+}
+.todo_items{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  margin-top: 5px;
+}
+.todo_items:last-child{
+  margin-bottom: 8px;
+}
+.text {
+  padding-left: 10px;
+}
+
+.todo_button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px 13px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  background: linear-gradient(135deg, #065c9e 0%, #607ff0 100%);
+}
